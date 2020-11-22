@@ -113,9 +113,9 @@ Using [SQLite](https://www.sqlite.org/index.html), an SQL database engine built 
     }
 ```
 
-I also designed the database schema for the class. Principles of normalization were followed except for one instance: song path is an attribute in both song table and note table. This decision was made to simplify implementation.
+### Database Schema:
 
-### Database Schema Visualized:
+I also designed the database schema for the class. Principles of normalization were followed except for one instance: song path is an attribute in both song table and note table. This decision was made to simplify implementation.
 
 ##### Playlist Table
 Playlist ID|Playlist Title
