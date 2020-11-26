@@ -121,17 +121,13 @@ I also designed the database schema for the class. Principles of normalization w
 Playlist ID    |    Playlist Title
 
 ##### Song Table
-Song ID|Song Title|Song Path|Song Artist|Song Duration
--------|----------|---------|-----------|-------------
- | | | | 
+Song ID    |    Song Title    |    Song Path    |    Song Artist    |    Song Duration
 
 ##### Playlist-Song Table
-Playlist-Song ID|Playlist ID|Song ID
-----------------|-----------|-------
-                |           |       
+Playlist-Song ID    |    Playlist ID    |    Song ID     
 
 ##### Note Table
-Note ID|Song ID|Song Path|Note Title|Note Content
+Note ID    |    Song ID    |    Song Path    |    Note Title    |    Note Content
 
 ### Possible Improvements
 Apart from general improvements in code readability and structure, there are certain decisions that could have been made to improve the performance and stability of this class.
